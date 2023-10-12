@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table,td{
+border:1px solid black;
+}
+</style>
+<body>
+<center>
+<h2>Candiate Information</h2>
+<table width="50%" bgcolor="#34c9eb">
+
+<form action="/action_page.php">
+<td>
+  <label>Name:*</label></td>
+ <td><input type="text" id="fname" name="fname" Maxlength="15"></td><br>
+  <tr><td><label>Password:*</label></td><td>
+  <input type="text" id="lname" name="lname" maxlength="10"></td><br>
+<tr>
+<td><label>Phone number:*</label></td>
+ <td><input type="text" id="phone number" name="phonenumber" Maxlength="10"></td><br>
+</tr>
+<tr>
+<td>Gender:*</td><td><input type="radio" name="male" id="male">MAle
+<input type="radio" name="male" id="male">female</td>
+</tr>
+<tr>
+<td>Date of Birth:*</td><td><input type="date" name="date of birth">
+</td>
+</tr>
+<tr><td>Email:*<name="email"></td><td><label><input type="text"></lable></td>
+</tr>
+<tr>
+<td><label for="hight qualification">Highst Qualification:*</label></td>
+<td><select id="qalification"><option value="select qualification">select highest qualification</option>
+ <option value="mba">mba</option>
+  <option value="mtech">mtech</option>
+  <option value="btech">btech</option>
+  <option value="mca">mca</option>
+  <option value="mcs">mcs</option>
+  <option value="ma">ma</option>
+  <option value="bsc">bsc.....</option>
+  </select>
+  </td>
+  </tr>
+  <tr><td> Course Interested in:*<td>
+  <input type="checkbox" id="html" name="html" value="course">
+  <label for="html">html</label>
+  <input type="checkbox" id="css" name="css" value="course">
+  <label for="css"> css</label>
+  <input type="checkbox" id="java" name="java" value="course">
+  <label for="java"> java</label><br>
+    <input type="checkbox" id="java" name="java" value="course">
+  <label for="jquery"> jquery</label>
+  <input type="checkbox" id="Angular Js" name="Angular Js" value="course"><label for="Angular Js">Angulr Js</label></td>
+  </tr>
+  <tr>
+  <td> Comments(Mention external certification if any)</td>
+  <td>
+  <textarea name="comments" id="comments">    
+ </textarea>
+ </td>
+ </tr>
+ <tr>
+ <td>Upload degree/External certification:*</td><td><input type="file" id="myFile" name="filename"></td>
+ </tr>
+ <tr>
+ <td></td>
+ <td>
+  <input type="submit" value="submit Information">
+  <input type="reset" value="clear"></td>
+  </tr>
+  </center>
+  </table>
+  <center style="color:red">ALL fields marked(*)are mandatory</center>
+  </form>
+  
+</body>
+</html>
+

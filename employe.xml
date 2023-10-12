@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<empDetails>
+<employee_Code>
+111</employee_Code>
+<employeeName firstname> seema</employeeName firstname>
+<employee lastName>dalvi</employee lastName>
+<doj>09/08/97</doj>
+<totalExperience>12</totalExperience>
+<department>
+<unit>12</unit><loc>mumbai</loc></department>
+<designation><1>
+</1>
+<2></2>
+<3></3>
+<4>*</4>
+<5></5></designation>
+</empDetails>
